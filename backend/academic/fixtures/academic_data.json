@@ -1,0 +1,3185 @@
+[
+{
+  "model": "academic.subject",
+  "pk": 1,
+  "fields": {
+    "code": "P",
+    "name": "Physics"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 2,
+  "fields": {
+    "code": "C",
+    "name": "Chemistry"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 3,
+  "fields": {
+    "code": "B",
+    "name": "Biology"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 4,
+  "fields": {
+    "code": "BAM",
+    "name": "Basic Applied Mathematics"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 5,
+  "fields": {
+    "code": "G",
+    "name": "Geography"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 6,
+  "fields": {
+    "code": "M",
+    "name": "Pure Mathematics"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 7,
+  "fields": {
+    "code": "ECO",
+    "name": "Economics"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 8,
+  "fields": {
+    "code": "COM",
+    "name": "Commerce"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 9,
+  "fields": {
+    "code": "ACC",
+    "name": "Accountancy"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 10,
+  "fields": {
+    "code": "HIS",
+    "name": "History"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 11,
+  "fields": {
+    "code": "ENG",
+    "name": "English Language"
+  }
+},
+{
+  "model": "academic.subject",
+  "pk": 12,
+  "fields": {
+    "code": "KIS",
+    "name": "Kiswahili"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 1,
+  "fields": {
+    "code": "PCB",
+    "name": "Physics, Chemistry and Biology"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 2,
+  "fields": {
+    "code": "CBG",
+    "name": "Chemistry, Biology and Geography"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 3,
+  "fields": {
+    "code": "PCM",
+    "name": "Physics, Chemistry and Pure Mathematics"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 4,
+  "fields": {
+    "code": "PGM",
+    "name": "Physics, Geography and Pure Mathematics"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 5,
+  "fields": {
+    "code": "ECA",
+    "name": "Economics, Commerce and Accountancy"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 6,
+  "fields": {
+    "code": "EGM",
+    "name": "Economics, Geography and Mathematics"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 7,
+  "fields": {
+    "code": "HGE",
+    "name": "History, Geography and Economics"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 8,
+  "fields": {
+    "code": "HGL",
+    "name": "History, Geography and Language"
+  }
+},
+{
+  "model": "academic.combination",
+  "pk": 9,
+  "fields": {
+    "code": "HKL",
+    "name": "History, Kiswahili and Language"
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 1,
+  "fields": {
+    "combination": 1,
+    "subject": 1,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 2,
+  "fields": {
+    "combination": 1,
+    "subject": 2,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 3,
+  "fields": {
+    "combination": 1,
+    "subject": 3,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 4,
+  "fields": {
+    "combination": 1,
+    "subject": 4,
+    "is_principal": false
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 5,
+  "fields": {
+    "combination": 2,
+    "subject": 2,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 6,
+  "fields": {
+    "combination": 2,
+    "subject": 3,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 7,
+  "fields": {
+    "combination": 2,
+    "subject": 5,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 8,
+  "fields": {
+    "combination": 2,
+    "subject": 4,
+    "is_principal": false
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 9,
+  "fields": {
+    "combination": 3,
+    "subject": 1,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 10,
+  "fields": {
+    "combination": 3,
+    "subject": 2,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 11,
+  "fields": {
+    "combination": 3,
+    "subject": 6,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 12,
+  "fields": {
+    "combination": 4,
+    "subject": 1,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 13,
+  "fields": {
+    "combination": 4,
+    "subject": 5,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 14,
+  "fields": {
+    "combination": 4,
+    "subject": 6,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 15,
+  "fields": {
+    "combination": 5,
+    "subject": 7,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 16,
+  "fields": {
+    "combination": 5,
+    "subject": 8,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 17,
+  "fields": {
+    "combination": 5,
+    "subject": 9,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 18,
+  "fields": {
+    "combination": 5,
+    "subject": 4,
+    "is_principal": false
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 19,
+  "fields": {
+    "combination": 6,
+    "subject": 7,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 20,
+  "fields": {
+    "combination": 6,
+    "subject": 5,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 21,
+  "fields": {
+    "combination": 6,
+    "subject": 6,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 22,
+  "fields": {
+    "combination": 7,
+    "subject": 10,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 23,
+  "fields": {
+    "combination": 7,
+    "subject": 5,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 24,
+  "fields": {
+    "combination": 7,
+    "subject": 7,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 25,
+  "fields": {
+    "combination": 7,
+    "subject": 4,
+    "is_principal": false
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 26,
+  "fields": {
+    "combination": 8,
+    "subject": 10,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 27,
+  "fields": {
+    "combination": 8,
+    "subject": 5,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 28,
+  "fields": {
+    "combination": 8,
+    "subject": 11,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 29,
+  "fields": {
+    "combination": 9,
+    "subject": 10,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 30,
+  "fields": {
+    "combination": 9,
+    "subject": 12,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.combinationsubject",
+  "pk": 31,
+  "fields": {
+    "combination": 9,
+    "subject": 11,
+    "is_principal": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 1,
+  "fields": {
+    "grade": "A",
+    "points": "5.00",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 2,
+  "fields": {
+    "grade": "B",
+    "points": "4.00",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 3,
+  "fields": {
+    "grade": "C",
+    "points": "3.00",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 4,
+  "fields": {
+    "grade": "D",
+    "points": "2.00",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 5,
+  "fields": {
+    "grade": "E",
+    "points": "1.00",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 6,
+  "fields": {
+    "grade": "S",
+    "points": "0.50",
+    "is_pass": true
+  }
+},
+{
+  "model": "academic.gradescale",
+  "pk": 7,
+  "fields": {
+    "grade": "F",
+    "points": "0.00",
+    "is_pass": false
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 2,
+  "fields": {
+    "name": "Doctor of Medicine (MD)"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 4,
+  "fields": {
+    "name": "Bachelor of Nursing"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 5,
+  "fields": {
+    "name": "Bachelor of Pharmacy"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 6,
+  "fields": {
+    "name": "Bachelor of Petroleum Engineering"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 7,
+  "fields": {
+    "name": "Bachelor of Aeronautical Engineering"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 8,
+  "fields": {
+    "name": "Bachelor of Telecommunications Engineering"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 9,
+  "fields": {
+    "name": "Bachelor of Commerce in Accounting"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 10,
+  "fields": {
+    "name": "Bachelor of Commerce in Finance"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 11,
+  "fields": {
+    "name": "Bachelor of Arts in Economics and Statistics"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 12,
+  "fields": {
+    "name": "Bachelor of Arts in Economics"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 13,
+  "fields": {
+    "name": "Bachelor of Laws"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 14,
+  "fields": {
+    "name": "Bachelor of Education in Physics"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 15,
+  "fields": {
+    "name": "Bachelor of Education in Chemistry"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 16,
+  "fields": {
+    "name": "Bachelor of Education in Biology"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 17,
+  "fields": {
+    "name": "Bachelor of Education in Geography"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 18,
+  "fields": {
+    "name": "Bachelor of Education in Mathematics"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 19,
+  "fields": {
+    "name": "Bachelor of Education in Economics"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 20,
+  "fields": {
+    "name": "Bachelor of Education in Commerce"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 21,
+  "fields": {
+    "name": "Bachelor of Education in Accountancy"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 22,
+  "fields": {
+    "name": "Bachelor of Education in History"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 23,
+  "fields": {
+    "name": "Bachelor of Education in English Language"
+  }
+},
+{
+  "model": "academic.degreeprogramme",
+  "pk": 24,
+  "fields": {
+    "name": "Bachelor of Education in Kiswahili"
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 1,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 2,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 3,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 4,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 5,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 6,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 7,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 8,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 9,
+  "fields": {
+    "degree_programme": 14,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 10,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 11,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 12,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 13,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 14,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 15,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 16,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 17,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 18,
+  "fields": {
+    "degree_programme": 15,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 19,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 20,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 21,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 22,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 23,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 24,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 25,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 26,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 27,
+  "fields": {
+    "degree_programme": 16,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 28,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 29,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 30,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 31,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 32,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 33,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 34,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 35,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 36,
+  "fields": {
+    "degree_programme": 17,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 37,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 38,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 39,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 40,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 41,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 42,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 43,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 44,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 45,
+  "fields": {
+    "degree_programme": 18,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 46,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 47,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 48,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 49,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 50,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 51,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 52,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 53,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 54,
+  "fields": {
+    "degree_programme": 19,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 55,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 56,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 57,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 58,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 59,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 60,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 61,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 62,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 63,
+  "fields": {
+    "degree_programme": 20,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 64,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 65,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 66,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 67,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 68,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 69,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 70,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 71,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 72,
+  "fields": {
+    "degree_programme": 21,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 73,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 74,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 75,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 76,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 77,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 78,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 79,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 80,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 81,
+  "fields": {
+    "degree_programme": 22,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 82,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 83,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 84,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 85,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 86,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 87,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 88,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 89,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 90,
+  "fields": {
+    "degree_programme": 23,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 91,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 1,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 92,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 2,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 93,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 3,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 94,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 4,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 95,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 96,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 97,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 98,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 8,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 99,
+  "fields": {
+    "degree_programme": 24,
+    "combination": 9,
+    "minimum_points": "4.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 100,
+  "fields": {
+    "degree_programme": 2,
+    "combination": 1,
+    "minimum_points": "13.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 101,
+  "fields": {
+    "degree_programme": 4,
+    "combination": 1,
+    "minimum_points": "10.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 102,
+  "fields": {
+    "degree_programme": 4,
+    "combination": 2,
+    "minimum_points": "10.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 103,
+  "fields": {
+    "degree_programme": 5,
+    "combination": 1,
+    "minimum_points": "10.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 104,
+  "fields": {
+    "degree_programme": 5,
+    "combination": 2,
+    "minimum_points": "10.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 105,
+  "fields": {
+    "degree_programme": 6,
+    "combination": 3,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 106,
+  "fields": {
+    "degree_programme": 6,
+    "combination": 4,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 107,
+  "fields": {
+    "degree_programme": 7,
+    "combination": 3,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 108,
+  "fields": {
+    "degree_programme": 7,
+    "combination": 4,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 109,
+  "fields": {
+    "degree_programme": 8,
+    "combination": 3,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 110,
+  "fields": {
+    "degree_programme": 8,
+    "combination": 4,
+    "minimum_points": "13.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 111,
+  "fields": {
+    "degree_programme": 9,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 112,
+  "fields": {
+    "degree_programme": 10,
+    "combination": 5,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 113,
+  "fields": {
+    "degree_programme": 11,
+    "combination": 6,
+    "minimum_points": "4.00",
+    "maths_subject": 6
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 114,
+  "fields": {
+    "degree_programme": 12,
+    "combination": 7,
+    "minimum_points": "4.00",
+    "maths_subject": 4
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 115,
+  "fields": {
+    "degree_programme": 13,
+    "combination": 9,
+    "minimum_points": "11.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmeeligibilityrule",
+  "pk": 116,
+  "fields": {
+    "degree_programme": 13,
+    "combination": 8,
+    "minimum_points": "10.00",
+    "maths_subject": null
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 1,
+  "fields": {
+    "eligibility_rule": 1,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 7,
+  "fields": {
+    "eligibility_rule": 3,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 10,
+  "fields": {
+    "eligibility_rule": 4,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 29,
+  "fields": {
+    "eligibility_rule": 10,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 31,
+  "fields": {
+    "eligibility_rule": 11,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 35,
+  "fields": {
+    "eligibility_rule": 12,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 57,
+  "fields": {
+    "eligibility_rule": 19,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 59,
+  "fields": {
+    "eligibility_rule": 20,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 87,
+  "fields": {
+    "eligibility_rule": 29,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 92,
+  "fields": {
+    "eligibility_rule": 31,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 98,
+  "fields": {
+    "eligibility_rule": 33,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 101,
+  "fields": {
+    "eligibility_rule": 34,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 104,
+  "fields": {
+    "eligibility_rule": 35,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 117,
+  "fields": {
+    "eligibility_rule": 39,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 120,
+  "fields": {
+    "eligibility_rule": 40,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 126,
+  "fields": {
+    "eligibility_rule": 42,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 148,
+  "fields": {
+    "eligibility_rule": 50,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 151,
+  "fields": {
+    "eligibility_rule": 51,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 156,
+  "fields": {
+    "eligibility_rule": 52,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 176,
+  "fields": {
+    "eligibility_rule": 59,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 204,
+  "fields": {
+    "eligibility_rule": 68,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 235,
+  "fields": {
+    "eligibility_rule": 79,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 238,
+  "fields": {
+    "eligibility_rule": 80,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 241,
+  "fields": {
+    "eligibility_rule": 81,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 267,
+  "fields": {
+    "eligibility_rule": 89,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 270,
+  "fields": {
+    "eligibility_rule": 90,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 296,
+  "fields": {
+    "eligibility_rule": 99,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 298,
+  "fields": {
+    "eligibility_rule": 2,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 299,
+  "fields": {
+    "eligibility_rule": 5,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 300,
+  "fields": {
+    "eligibility_rule": 6,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 301,
+  "fields": {
+    "eligibility_rule": 7,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 302,
+  "fields": {
+    "eligibility_rule": 8,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 303,
+  "fields": {
+    "eligibility_rule": 9,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 304,
+  "fields": {
+    "eligibility_rule": 13,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 305,
+  "fields": {
+    "eligibility_rule": 14,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 306,
+  "fields": {
+    "eligibility_rule": 15,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 307,
+  "fields": {
+    "eligibility_rule": 16,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 308,
+  "fields": {
+    "eligibility_rule": 17,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 309,
+  "fields": {
+    "eligibility_rule": 18,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 310,
+  "fields": {
+    "eligibility_rule": 21,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 311,
+  "fields": {
+    "eligibility_rule": 22,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 312,
+  "fields": {
+    "eligibility_rule": 23,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 313,
+  "fields": {
+    "eligibility_rule": 24,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 314,
+  "fields": {
+    "eligibility_rule": 25,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 315,
+  "fields": {
+    "eligibility_rule": 26,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 316,
+  "fields": {
+    "eligibility_rule": 27,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 317,
+  "fields": {
+    "eligibility_rule": 28,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 318,
+  "fields": {
+    "eligibility_rule": 30,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 319,
+  "fields": {
+    "eligibility_rule": 32,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 320,
+  "fields": {
+    "eligibility_rule": 36,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 321,
+  "fields": {
+    "eligibility_rule": 37,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 322,
+  "fields": {
+    "eligibility_rule": 38,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 323,
+  "fields": {
+    "eligibility_rule": 41,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 324,
+  "fields": {
+    "eligibility_rule": 43,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 325,
+  "fields": {
+    "eligibility_rule": 44,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 326,
+  "fields": {
+    "eligibility_rule": 45,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 327,
+  "fields": {
+    "eligibility_rule": 46,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 328,
+  "fields": {
+    "eligibility_rule": 47,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 329,
+  "fields": {
+    "eligibility_rule": 48,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 330,
+  "fields": {
+    "eligibility_rule": 49,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 331,
+  "fields": {
+    "eligibility_rule": 53,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 332,
+  "fields": {
+    "eligibility_rule": 54,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 333,
+  "fields": {
+    "eligibility_rule": 55,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 334,
+  "fields": {
+    "eligibility_rule": 56,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 335,
+  "fields": {
+    "eligibility_rule": 57,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 336,
+  "fields": {
+    "eligibility_rule": 58,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 337,
+  "fields": {
+    "eligibility_rule": 60,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 338,
+  "fields": {
+    "eligibility_rule": 61,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 339,
+  "fields": {
+    "eligibility_rule": 62,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 340,
+  "fields": {
+    "eligibility_rule": 63,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 341,
+  "fields": {
+    "eligibility_rule": 64,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 342,
+  "fields": {
+    "eligibility_rule": 65,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 343,
+  "fields": {
+    "eligibility_rule": 66,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 344,
+  "fields": {
+    "eligibility_rule": 67,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 345,
+  "fields": {
+    "eligibility_rule": 69,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 346,
+  "fields": {
+    "eligibility_rule": 70,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 347,
+  "fields": {
+    "eligibility_rule": 71,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 348,
+  "fields": {
+    "eligibility_rule": 72,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 349,
+  "fields": {
+    "eligibility_rule": 73,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 350,
+  "fields": {
+    "eligibility_rule": 74,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 351,
+  "fields": {
+    "eligibility_rule": 75,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 352,
+  "fields": {
+    "eligibility_rule": 76,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 353,
+  "fields": {
+    "eligibility_rule": 77,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 354,
+  "fields": {
+    "eligibility_rule": 78,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 355,
+  "fields": {
+    "eligibility_rule": 82,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 356,
+  "fields": {
+    "eligibility_rule": 83,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 357,
+  "fields": {
+    "eligibility_rule": 84,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 358,
+  "fields": {
+    "eligibility_rule": 85,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 359,
+  "fields": {
+    "eligibility_rule": 86,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 360,
+  "fields": {
+    "eligibility_rule": 87,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 361,
+  "fields": {
+    "eligibility_rule": 88,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 362,
+  "fields": {
+    "eligibility_rule": 91,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 363,
+  "fields": {
+    "eligibility_rule": 92,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 364,
+  "fields": {
+    "eligibility_rule": 93,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 365,
+  "fields": {
+    "eligibility_rule": 94,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 366,
+  "fields": {
+    "eligibility_rule": 95,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 367,
+  "fields": {
+    "eligibility_rule": 96,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 368,
+  "fields": {
+    "eligibility_rule": 97,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 369,
+  "fields": {
+    "eligibility_rule": 98,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 370,
+  "fields": {
+    "eligibility_rule": 100,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 371,
+  "fields": {
+    "eligibility_rule": 100,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 372,
+  "fields": {
+    "eligibility_rule": 100,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 373,
+  "fields": {
+    "eligibility_rule": 101,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 374,
+  "fields": {
+    "eligibility_rule": 101,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 375,
+  "fields": {
+    "eligibility_rule": 102,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 376,
+  "fields": {
+    "eligibility_rule": 102,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 377,
+  "fields": {
+    "eligibility_rule": 103,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 378,
+  "fields": {
+    "eligibility_rule": 103,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 379,
+  "fields": {
+    "eligibility_rule": 104,
+    "subject": 3,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 380,
+  "fields": {
+    "eligibility_rule": 104,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 381,
+  "fields": {
+    "eligibility_rule": 105,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 382,
+  "fields": {
+    "eligibility_rule": 105,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 383,
+  "fields": {
+    "eligibility_rule": 105,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 384,
+  "fields": {
+    "eligibility_rule": 106,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 385,
+  "fields": {
+    "eligibility_rule": 106,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 386,
+  "fields": {
+    "eligibility_rule": 106,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 387,
+  "fields": {
+    "eligibility_rule": 107,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 388,
+  "fields": {
+    "eligibility_rule": 107,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 389,
+  "fields": {
+    "eligibility_rule": 107,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 390,
+  "fields": {
+    "eligibility_rule": 108,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 391,
+  "fields": {
+    "eligibility_rule": 108,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 392,
+  "fields": {
+    "eligibility_rule": 108,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 393,
+  "fields": {
+    "eligibility_rule": 109,
+    "subject": 2,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 394,
+  "fields": {
+    "eligibility_rule": 109,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 395,
+  "fields": {
+    "eligibility_rule": 109,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 396,
+  "fields": {
+    "eligibility_rule": 110,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 397,
+  "fields": {
+    "eligibility_rule": 110,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 398,
+  "fields": {
+    "eligibility_rule": 110,
+    "subject": 1,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 399,
+  "fields": {
+    "eligibility_rule": 111,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 400,
+  "fields": {
+    "eligibility_rule": 111,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 401,
+  "fields": {
+    "eligibility_rule": 111,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 402,
+  "fields": {
+    "eligibility_rule": 112,
+    "subject": 9,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 403,
+  "fields": {
+    "eligibility_rule": 112,
+    "subject": 8,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 404,
+  "fields": {
+    "eligibility_rule": 112,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 405,
+  "fields": {
+    "eligibility_rule": 113,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 406,
+  "fields": {
+    "eligibility_rule": 113,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 407,
+  "fields": {
+    "eligibility_rule": 113,
+    "subject": 6,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 408,
+  "fields": {
+    "eligibility_rule": 114,
+    "subject": 7,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 411,
+  "fields": {
+    "eligibility_rule": 115,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 412,
+  "fields": {
+    "eligibility_rule": 115,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 413,
+  "fields": {
+    "eligibility_rule": 115,
+    "subject": 12,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 414,
+  "fields": {
+    "eligibility_rule": 116,
+    "subject": 11,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 415,
+  "fields": {
+    "eligibility_rule": 116,
+    "subject": 5,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.programmesubjectrequirement",
+  "pk": 416,
+  "fields": {
+    "eligibility_rule": 116,
+    "subject": 10,
+    "minimum_grade": 4
+  }
+},
+{
+  "model": "academic.university",
+  "pk": 1,
+  "fields": {
+    "name": "Muhimbili University of Health and Allied Sciences (MUHAS)",
+    "ownership": "PUBLIC",
+    "location": "Dar es Salaam",
+    "official_website": "https://muhas.ac.tz/"
+  }
+},
+{
+  "model": "academic.university",
+  "pk": 2,
+  "fields": {
+    "name": "University of Dodoma (UDOM)",
+    "ownership": "PUBLIC",
+    "location": "Dodoma",
+    "official_website": "https://udom.ac.tz/"
+  }
+},
+{
+  "model": "academic.university",
+  "pk": 3,
+  "fields": {
+    "name": "University of Dar es Salaam (UDSM)",
+    "ownership": "PUBLIC",
+    "location": "Dar es Salaam",
+    "official_website": "https://www.udsm.ac.tz/"
+  }
+},
+{
+  "model": "academic.universityprogramme",
+  "pk": 1,
+  "fields": {
+    "duration_years": 5,
+    "minimum_points": "10.00",
+    "is_active": true,
+    "degree_programme": 2,
+    "university": 1
+  }
+},
+{
+  "model": "academic.universityprogramme",
+  "pk": 2,
+  "fields": {
+    "duration_years": 5,
+    "minimum_points": "10.00",
+    "is_active": true,
+    "degree_programme": 2,
+    "university": 2
+  }
+},
+{
+  "model": "academic.universityprogramme",
+  "pk": 3,
+  "fields": {
+    "duration_years": 5,
+    "minimum_points": "10.00",
+    "is_active": true,
+    "degree_programme": 2,
+    "university": 3
+  }
+}
+]
